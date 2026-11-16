@@ -5,6 +5,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/Davidtzuke/snapsend/actions/workflows/build.yml"><img src="https://github.com/Davidtzuke/snapsend/actions/workflows/build.yml/badge.svg" alt="Build status"></a>
+  <img src="https://img.shields.io/badge/macOS-14%2B-black" alt="macOS 14 or later">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
+</p>
+
+<p align="center">
   <img src="docs/demo.gif" alt="Press Control-Option-Command-C, take a photo with Space, and press Return to paste it into the open WhatsApp chat" width="800">
 </p>
 
