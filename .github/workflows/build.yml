@@ -1,0 +1,18 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build universal app
+        run: make
+      - name: Check the bundle
+        run: |
+          lipo -info build/SnapSend.app/Contents/MacOS/SnapSend
+          codesign --verify --strict build/SnapSend.app

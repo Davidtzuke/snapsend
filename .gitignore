@@ -1,0 +1,6 @@
+build/
+.DS_Store
+*.xcuserstate
+.env*
+*.p12
+*.mobileprovision
